@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".RegisterActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_register">
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/name_margin"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_1"
+        android:textSize="@dimen/text_size"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_2"
+        android:textSize="@dimen/text_size"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/edt_margin_le_ri"
+
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edt"
+            android:hint="@string/hint_phone"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:maxLength="12"
+            android:layout_marginBottom="@dimen/edt_margin_top_bot"
+            android:padding="@dimen/edt_padding"
+            android:id="@+id/regis_phoneNumber"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edt"
+            android:hint="@string/hint_password"
+            android:padding="@dimen/edt_padding"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:id="@+id/regis_password"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="@dimen/edt_margin_le_ri"
+        android:id="@+id/btnRegister"
+        android:background="@drawable/round_button_register"
+        />
+
+</LinearLayout>

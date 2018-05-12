@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Timto</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="text_bottom">Sử dụng thử ứng dụng không cần đăng ký !</string>
+    <string name="register_1">Xin Chào!</string>
+    <string name="register_2">Hãy đăng ký để bắt đầu</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="login_1">Chào mừng bạn đã quay lại.</string>
+    <string name="forget_password">Quên mật khẩu?</string>
+
+
+</resources>

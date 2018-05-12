@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="fab_margin">12dp</dimen>
+    <dimen name="btn_margin">5dp</dimen>
+    <dimen name="btn_radius">10dp</dimen>
+    <dimen name="dot_height">1dp</dimen>
+    <dimen name="btn_stroke">1dp</dimen>
+    <dimen name="text_margin">20dp</dimen>
+    <dimen name="name_margin">25dp</dimen>
+
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+    <dimen name="edt_margin_top_bot">15sp</dimen>
+    <dimen name="edt_margin_le_ri">20sp</dimen>
+    <dimen name="edt_padding">14sp</dimen>
+
+    <dimen name="edt_verify">40dp</dimen>
+</resources>
